@@ -1,4 +1,0 @@
-[console_scripts]
-follow_human = follow_human.follow_human:main
-human_position_publisher = follow_human.human_position_publisher:main
-

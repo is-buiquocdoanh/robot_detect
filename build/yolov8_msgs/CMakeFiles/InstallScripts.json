@@ -1,8 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/doanh/robot_detect/build/yolov8_msgs/cmake_install.cmake",
-		"/home/doanh/robot_detect/build/yolov8_msgs/yolov8_msgs__py/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

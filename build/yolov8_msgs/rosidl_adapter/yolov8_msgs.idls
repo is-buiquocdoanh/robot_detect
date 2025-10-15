@@ -1,4 +1,0 @@
-/home/doanh/robot_detect/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/InferenceResult.idl
-/home/doanh/robot_detect/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/Yolov8Inference.idl
-/home/doanh/robot_detect/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/HumanPosition.idl
-/home/doanh/robot_detect/build/yolov8_msgs/rosidl_adapter/yolov8_msgs:msg/HumanPositionArray.idl

@@ -1,13 +1,13 @@
-# Colcon build artifacts
+# ROS2 build artifacts
 build/
 install/
 log/
 
 # Python cache
-*.pyc
 __pycache__/
+*.pyc
+*.pyo
 
-# Editor configs
+# VSCode & IDE files
 .vscode/
-*.swp
-*.DS_Store
+.idea/
