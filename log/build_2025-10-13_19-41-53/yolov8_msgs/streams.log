@@ -1,0 +1,164 @@
+[1.290s] Invoking command in '/home/doanh/robot_detect/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/robot_detect/install/human_follow:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/yolov8_msgs -- -j12 -l12
+[1.392s] [  2%] [0mBuilt target yolov8_msgs__cpp[0m
+[1.397s] [ 12%] [0mBuilt target yolov8_msgs__rosidl_generator_c[0m
+[1.406s] [ 12%] [0mBuilt target ament_cmake_python_copy_yolov8_msgs[0m
+[1.429s] [ 23%] [0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_c[0m
+[1.429s] [ 33%] [0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_cpp[0m
+[1.429s] [ 43%] [0mBuilt target yolov8_msgs__rosidl_typesupport_cpp[0m
+[1.433s] [ 64%] [0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[1.433s] [ 64%] [0mBuilt target yolov8_msgs__rosidl_typesupport_c[0m
+[1.438s] [ 74%] [0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_c[0m
+[1.456s] [ 74%] [0mBuilt target yolov8_msgs[0m
+[1.476s] [ 76%] [0mBuilt target yolov8_msgs__py[0m
+[1.492s] [ 84%] [0mBuilt target yolov8_msgs__rosidl_generator_py[0m
+[1.511s] [ 89%] [0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.514s] [ 94%] [0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.514s] [100%] [0mBuilt target yolov8_msgs__rosidl_typesupport_c__pyext[0m
+[1.792s] running egg_info
+[1.793s] writing yolov8_msgs.egg-info/PKG-INFO
+[1.793s] writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt
+[1.793s] writing top-level names to yolov8_msgs.egg-info/top_level.txt
+[1.798s] reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[1.799s] writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'
+[1.837s] [100%] [0mBuilt target ament_cmake_python_build_yolov8_msgs_egg[0m
+[1.847s] Invoked command in '/home/doanh/robot_detect/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/robot_detect/install/human_follow:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/yolov8_msgs -- -j12 -l12
+[1.849s] Invoking command in '/home/doanh/robot_detect/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/robot_detect/install/human_follow:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/yolov8_msgs
+[1.941s] -- Install configuration: ""
+[1.941s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs
+[1.941s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.941s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.941s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.941s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.c
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.c
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv
+[1.942s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so
+[1.943s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.943s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.943s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.943s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h
+[1.943s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp
+[1.944s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp
+[1.945s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.c
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.c
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.946s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.cpp
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info
+[1.947s] -- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[1.947s] -- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[1.947s] -- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.947s] -- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg
+[1.947s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference_s.c
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result_s.c
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[1.948s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.041s] Listing '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...
+[2.043s] Listing '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...
+[2.052s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[2.053s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[2.053s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[2.053s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so
+[2.053s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh
+[2.054s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv
+[2.057s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash
+[2.058s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh
+[2.059s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh
+[2.060s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv
+[2.060s] -- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.dsv
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.061s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.062s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake
+[2.063s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.063s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake
+[2.063s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.067s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.067s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.067s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.067s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.068s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.068s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake
+[2.068s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake
+[2.068s] -- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.xml
+[2.068s] Invoked command in '/home/doanh/robot_detect/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/robot_detect/install/human_follow:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/yolov8_msgs

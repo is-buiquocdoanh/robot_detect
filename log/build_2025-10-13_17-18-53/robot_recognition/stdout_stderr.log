@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 3.10 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+  to tell CMake that the project requires at least <min> but has been updated
+  to work with policies introduced by <max> or earlier.
+
+[0m
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (0.9s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/doanh/robot_detect/build/robot_recognition
+-- Install configuration: ""
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//scripts
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//scripts/yolov8_ros2_pt.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//scripts/yolov8n.pt
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//scripts/yolov8_ros2_subscriber.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//launch
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition//launch/launch_yolov8.launch.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/lib/robot_recognition/yolov8_ros2_pt.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/lib/robot_recognition/yolov8_ros2_subscriber.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/lib/robot_recognition/launch_yolov8.launch.py
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/ament_index/resource_index/package_run_dependencies/robot_recognition
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/ament_index/resource_index/parent_prefix_path/robot_recognition
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/environment/ament_prefix_path.sh
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/environment/ament_prefix_path.dsv
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/environment/path.sh
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/environment/path.dsv
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/local_setup.bash
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/local_setup.sh
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/local_setup.zsh
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/local_setup.dsv
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.dsv
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/ament_index/resource_index/packages/robot_recognition
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/cmake/robot_recognitionConfig.cmake
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/cmake/robot_recognitionConfig-version.cmake
+-- Installing: /home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.xml

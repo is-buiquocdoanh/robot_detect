@@ -1,0 +1,8 @@
+msg/HumanPosition.idl
+msg/HumanPosition.msg
+msg/HumanPositionArray.idl
+msg/HumanPositionArray.msg
+msg/InferenceResult.idl
+msg/InferenceResult.msg
+msg/Yolov8Inference.idl
+msg/Yolov8Inference.msg

@@ -1,0 +1,9 @@
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/uninstall.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/robot_recognition_uninstall.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/test.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/edit_cache.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/rebuild_cache.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/list_install_components.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/install.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/install/local.dir
+/home/doanh/robot_detect/build/robot_recognition/CMakeFiles/install/strip.dir

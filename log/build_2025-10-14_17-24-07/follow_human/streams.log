@@ -1,0 +1,25 @@
+[2.190s] Invoking command in '/home/doanh/robot_detect/src/follow_human': PYTHONPATH=/home/doanh/robot_detect/build/follow_human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_human build --build-base /home/doanh/robot_detect/build/follow_human/build install --record /home/doanh/robot_detect/build/follow_human/install.log --single-version-externally-managed install_data
+[2.501s] running egg_info
+[2.501s] writing ../../build/follow_human/follow_human.egg-info/PKG-INFO
+[2.502s] writing dependency_links to ../../build/follow_human/follow_human.egg-info/dependency_links.txt
+[2.502s] writing entry points to ../../build/follow_human/follow_human.egg-info/entry_points.txt
+[2.502s] writing requirements to ../../build/follow_human/follow_human.egg-info/requires.txt
+[2.502s] writing top-level names to ../../build/follow_human/follow_human.egg-info/top_level.txt
+[2.504s] reading manifest file '../../build/follow_human/follow_human.egg-info/SOURCES.txt'
+[2.505s] writing manifest file '../../build/follow_human/follow_human.egg-info/SOURCES.txt'
+[2.505s] running build
+[2.505s] running build_py
+[2.505s] copying follow_human/follow_human.py -> /home/doanh/robot_detect/build/follow_human/build/lib/follow_human
+[2.505s] running install
+[2.506s] running install_lib
+[2.507s] copying /home/doanh/robot_detect/build/follow_human/build/lib/follow_human/follow_human.py -> /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human
+[2.508s] byte-compiling /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human/follow_human.py to follow_human.cpython-310.pyc
+[2.509s] running install_data
+[2.509s] running install_egg_info
+[2.513s] removing '/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human-0.0.0-py3.10.egg-info' (and everything under it)
+[2.514s] Copying ../../build/follow_human/follow_human.egg-info to /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human-0.0.0-py3.10.egg-info
+[2.515s] running install_scripts
+[2.535s] Installing follow_human script to /home/doanh/robot_detect/install/follow_human/lib/follow_human
+[2.535s] Installing human_position_publisher script to /home/doanh/robot_detect/install/follow_human/lib/follow_human
+[2.535s] writing list of installed files to '/home/doanh/robot_detect/build/follow_human/install.log'
+[2.563s] Invoked command in '/home/doanh/robot_detect/src/follow_human' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/follow_human/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/follow_human build --build-base /home/doanh/robot_detect/build/follow_human/build install --record /home/doanh/robot_detect/build/follow_human/install.log --single-version-externally-managed install_data

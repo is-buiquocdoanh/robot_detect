@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-611c4e8ae88e6e29128d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "yolov8_msgs__py",
+					"jsonFile" : "directory-yolov8_msgs__py-ec917ad69283e5d0a6bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/doanh/robot_detect/build/yolov8_msgs/yolov8_msgs__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "yolov8_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_yolov8_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_yolov8_msgs_egg-91820f67b60b57f3cea4.json",
+					"name" : "ament_cmake_python_build_yolov8_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_yolov8_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_yolov8_msgs-b703de5e45989ba73b34.json",
+					"name" : "ament_cmake_python_copy_yolov8_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c16f11b50a96685b9650.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs-70883518d8dd43d2e10f.json",
+					"name" : "yolov8_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__cpp-76b3e66472338a0c8d3e.json",
+					"name" : "yolov8_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "yolov8_msgs__py::@28283e549f6cf85feae6",
+					"jsonFile" : "target-yolov8_msgs__py-f8bae2328ddbb1eda652.json",
+					"name" : "yolov8_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_generator_c-c4bc7d380a266b47114b.json",
+					"name" : "yolov8_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_generator_py-d4a48311e98383f3ac93.json",
+					"name" : "yolov8_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_c-21f1e08b645fddb1b04d.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_c__pyext-08ad7e39f4ca22ae36e0.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_cpp-8ded0b3158a45ab13076.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_fastrtps_c-b7507f3d9fc80cd81c36.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext-262377ae0518ee6355bc.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_fastrtps_cpp-2cbd5b7b370584d71b16.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_introspection_c-2a589fe24ee21aea19cc.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_introspection_c__pyext-a17be75e81912962ea8b.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs__rosidl_typesupport_introspection_cpp-733322f1fd6947366ba0.json",
+					"name" : "yolov8_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yolov8_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yolov8_msgs_uninstall-aff5b2696a1004e1dd61.json",
+					"name" : "yolov8_msgs_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/doanh/robot_detect/build/yolov8_msgs",
+		"source" : "/home/doanh/robot_detect/src/yolov8_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

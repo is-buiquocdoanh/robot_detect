@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/doanh/robot_detect/build/robot_recognition/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

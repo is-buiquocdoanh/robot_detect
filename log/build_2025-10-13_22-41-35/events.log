@@ -1,0 +1,376 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (-) JobUnselected: {'identifier': 'follow_human'}
+[0.000408] (-) JobUnselected: {'identifier': 'robot_joy'}
+[0.000430] (-) JobUnselected: {'identifier': 'robot_mapping'}
+[0.000444] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.000454] (-) JobUnselected: {'identifier': 'robot_recognition'}
+[0.000464] (-) JobUnselected: {'identifier': 'robot_simulation'}
+[0.000477] (yolov8_msgs) JobQueued: {'identifier': 'yolov8_msgs', 'dependencies': OrderedDict()}
+[0.000664] (yolov8_msgs) JobStarted: {'identifier': 'yolov8_msgs'}
+[0.009739] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'cmake'}
+[0.010178] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'build'}
+[0.010673] (yolov8_msgs) Command: {'cmd': ['/home/doanh/.local/bin/cmake', '--build', '/home/doanh/robot_detect/build/yolov8_msgs', '--', '-j12', '-l12'], 'cwd': '/home/doanh/robot_detect/build/yolov8_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'doanh'), ('LC_TIME', 'vi_VN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/doanh/robot_detect/install/yolov8_msgs/lib:/home/doanh/go2_robot/install/fast_lio/lib:/home/doanh/go2_robot/install/livox_ros_driver2/lib:/home/doanh/go2_robot/install/go2_interfaces/lib:/home/doanh/mrdoanh_projects/install/go2_interfaces/lib:/home/doanh/new/mrdoanh_projects/install/go2_interfaces/lib:/home/doanh/livox_mapping/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/doanh'), ('OLDPWD', '/home/doanh/robot_detect/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN.UTF-8'), ('MANAGERPID', '1554'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '67588'), ('COLCON_PREFIX_PATH', '/home/doanh/robot_detect/install:/home/doanh/go2_robot/install:/home/doanh/mrdoanh_projects/install:/home/doanh/new/mrdoanh_projects/install:/home/doanh/livox_mapping/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'doanh'), ('JOURNAL_STREAM', '8:8731'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'doanh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/doanh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/latop:@/tmp/.ICE-unix/1782,unix/latop:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'e4842607c8be4c87862d8f357b8622a5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/doanh/robot_detect/install/follow_human:/home/doanh/robot_detect/install/human_follow:/home/doanh/robot_detect/install/yolov8_msgs:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_recognition:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/fast_lio:/home/doanh/go2_robot/install/livox_ros_driver2:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/go2_interfaces:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/go2_interfaces:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/go2_interfaces:/home/doanh/new/mrdoanh_projects/install/coco_detector:/home/doanh/livox_mapping/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:60e4e08b-4b02-4f61-8b36-16341ccf4720'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/doanh/robot_detect/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages:/home/doanh/robot_detect/install/human_follow/lib/python3.10/site-packages:/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/doanh/robot_detect/install/robot_simulation/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_joy/lib/python3.10/site-packages:/home/doanh/go2_robot/install/speech_processor/lib/python3.10/site-packages:/home/doanh/go2_robot/install/reset_odom/lib/python3.10/site-packages:/home/doanh/go2_robot/install/livox_to_laserscan/lib/python3.10/site-packages:/home/doanh/go2_robot/install/fast_lio/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/go2_robot/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/go2_robot/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/coco_detector/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/speech_processor/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/mrdoanh_projects/install/coco_detector/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/speech_processor/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/new/mrdoanh_projects/install/coco_detector/lib/python3.10/site-packages:/home/doanh/livox_mapping/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN.UTF-8'), ('LC_PAPER', 'vi_VN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/doanh/robot_detect/install/yolov8_msgs:/home/doanh/robot_detect/install/robot_recognition:/home/doanh/go2_robot/install/fast_lio:/home/doanh/go2_robot/install/livox_ros_driver2:/home/doanh/go2_robot/install/go2_interfaces:/home/doanh/mrdoanh_projects/install/go2_interfaces:/home/doanh/new/mrdoanh_projects/install/go2_interfaces:/home/doanh/livox_mapping/install/fast_lio:/home/doanh/robot_detect/install/follow_human:/home/doanh/robot_detect/install/human_follow:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble')]), 'shell': False}
+[0.099814] (-) TimerEvent: {}
+[0.103695] (yolov8_msgs) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.103992] (yolov8_msgs) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.104061] (yolov8_msgs) StderrLine: {'line': b'  CMake.\n'}
+[0.104102] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[0.104139] (yolov8_msgs) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.104196] (yolov8_msgs) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.104255] (yolov8_msgs) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.104316] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[0.104377] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.109284] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199915] (-) TimerEvent: {}
+[0.300228] (-) TimerEvent: {}
+[0.331802] (yolov8_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.357284] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.359822] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.368212] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.377944] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.390299] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400330] (-) TimerEvent: {}
+[0.413846] (yolov8_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.500451] (-) TimerEvent: {}
+[0.600870] (-) TimerEvent: {}
+[0.701215] (-) TimerEvent: {}
+[0.801805] (-) TimerEvent: {}
+[0.869149] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.901982] (-) TimerEvent: {}
+[1.002447] (-) TimerEvent: {}
+[1.102796] (-) TimerEvent: {}
+[1.203153] (-) TimerEvent: {}
+[1.303498] (-) TimerEvent: {}
+[1.403758] (-) TimerEvent: {}
+[1.504074] (-) TimerEvent: {}
+[1.604423] (-) TimerEvent: {}
+[1.670923] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.704556] (-) TimerEvent: {}
+[1.804979] (-) TimerEvent: {}
+[1.905412] (-) TimerEvent: {}
+[1.986827] (yolov8_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.988890] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[1.989135] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[1.989211] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[1.989267] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[1.989320] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[1.989369] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.989414] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[1.989469] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[1.989525] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[1.989568] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.989613] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.005498] (-) TimerEvent: {}
+[2.014300] (yolov8_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.014579] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[2.014765] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.014841] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.014884] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.014923] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[2.014977] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.015016] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.015074] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.015127] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.015174] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[2.015220] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.015258] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.038134] (yolov8_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[2.038412] (yolov8_msgs) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[2.038493] (yolov8_msgs) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[2.038564] (yolov8_msgs) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[2.038630] (yolov8_msgs) StderrLine: {'line': b'\n'}
+[2.038693] (yolov8_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.038760] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[2.038825] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[2.038887] (yolov8_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[2.038947] (yolov8_msgs) StderrLine: {'line': b'  CMakeLists.txt:22 (rosidl_generate_interfaces)\n'}
+[2.039010] (yolov8_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[2.039079] (yolov8_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[2.040104] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.040270] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.040337] (yolov8_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.099160] (yolov8_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.105656] (-) TimerEvent: {}
+[2.110451] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.112655] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.113668] (yolov8_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.116589] (yolov8_msgs) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.174405] (yolov8_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.187350] (yolov8_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/doanh/robot_detect/build/yolov8_msgs\n'}
+[2.205768] (-) TimerEvent: {}
+[2.206979] (yolov8_msgs) StdoutLine: {'line': b'[  2%] \x1b[1m\x1b[34mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.211849] (yolov8_msgs) StdoutLine: {'line': b'[  4%] \x1b[1m\x1b[34mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.215719] (yolov8_msgs) StdoutLine: {'line': b'[  4%] \x1b[0mBuilt target ament_cmake_python_copy_yolov8_msgs\x1b[0m\n'}
+[2.305864] (-) TimerEvent: {}
+[2.406179] (-) TimerEvent: {}
+[2.506533] (-) TimerEvent: {}
+[2.529268] (yolov8_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.530312] (yolov8_msgs) StdoutLine: {'line': b'writing yolov8_msgs.egg-info/PKG-INFO\n'}
+[2.530632] (yolov8_msgs) StdoutLine: {'line': b'writing dependency_links to yolov8_msgs.egg-info/dependency_links.txt\n'}
+[2.530791] (yolov8_msgs) StdoutLine: {'line': b'writing top-level names to yolov8_msgs.egg-info/top_level.txt\n'}
+[2.533751] (yolov8_msgs) StdoutLine: {'line': b"reading manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[2.534379] (yolov8_msgs) StdoutLine: {'line': b"writing manifest file 'yolov8_msgs.egg-info/SOURCES.txt'\n"}
+[2.563197] (yolov8_msgs) StdoutLine: {'line': b'[  4%] \x1b[0mBuilt target ament_cmake_python_build_yolov8_msgs_egg\x1b[0m\n'}
+[2.592141] (yolov8_msgs) StdoutLine: {'line': b'[  4%] \x1b[0mBuilt target yolov8_msgs__cpp\x1b[0m\n'}
+[2.594150] (yolov8_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/inference_result__functions.c.o\x1b[0m\n'}
+[2.594407] (yolov8_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/yolov8_inference__functions.c.o\x1b[0m\n'}
+[2.594489] (yolov8_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_c.dir/rosidl_generator_c/yolov8_msgs/msg/detail/human_position__functions.c.o\x1b[0m\n'}
+[2.596444] (yolov8_msgs) StdoutLine: {'line': b'[ 12%] \x1b[1m\x1b[34mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.597160] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[1m\x1b[34mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.597313] (yolov8_msgs) StdoutLine: {'line': b'[ 17%] \x1b[1m\x1b[34mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.606636] (-) TimerEvent: {}
+[2.652999] (yolov8_msgs) StdoutLine: {'line': b'[ 19%] \x1b[1m\x1b[32mLinking C shared library libyolov8_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.683885] (yolov8_msgs) StdoutLine: {'line': b'[ 19%] \x1b[0mBuilt target yolov8_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.689517] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[1m\x1b[34mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.689773] (yolov8_msgs) StdoutLine: {'line': b'[ 23%] \x1b[1m\x1b[34mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.690293] (yolov8_msgs) StdoutLine: {'line': b'[ 25%] \x1b[1m\x1b[34mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.706782] (-) TimerEvent: {}
+[2.807384] (-) TimerEvent: {}
+[2.907799] (-) TimerEvent: {}
+[2.917640] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[2.918433] (yolov8_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[2.918568] (yolov8_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/yolov8_msgs/msg/human_position__type_support.cpp.o\x1b[0m\n'}
+[2.996792] (yolov8_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/inference_result__type_support.cpp.o\x1b[0m\n'}
+[2.998975] (yolov8_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.002120] (yolov8_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/yolov8_msgs/msg/detail/dds_fastrtps/human_position__type_support.cpp.o\x1b[0m\n'}
+[3.010712] (-) TimerEvent: {}
+[3.060934] (yolov8_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.066443] (yolov8_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.072198] (yolov8_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/yolov8_msgs/msg/detail/human_position__type_support.cpp.o\x1b[0m\n'}
+[3.110834] (-) TimerEvent: {}
+[3.136918] (yolov8_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/inference_result__type_support.cpp.o\x1b[0m\n'}
+[3.183546] (yolov8_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/yolov8_inference__type_support.cpp.o\x1b[0m\n'}
+[3.212249] (-) TimerEvent: {}
+[3.223466] (yolov8_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/inference_result__type_support.c.o\x1b[0m\n'}
+[3.236304] (yolov8_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/yolov8_msgs/msg/human_position__type_support.cpp.o\x1b[0m\n'}
+[3.292356] (yolov8_msgs) StdoutLine: {'line': b'[ 55%] \x1b[1m\x1b[32mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.312357] (-) TimerEvent: {}
+[3.313162] (yolov8_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/yolov8_inference__type_support.c.o\x1b[0m\n'}
+[3.355662] (yolov8_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/inference_result__type_support_c.cpp.o\x1b[0m\n'}
+[3.369492] (yolov8_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/yolov8_inference__type_support_c.cpp.o\x1b[0m\n'}
+[3.370442] (yolov8_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/yolov8_msgs/msg/detail/human_position__type_support.c.o\x1b[0m\n'}
+[3.401541] (yolov8_msgs) StdoutLine: {'line': b'[ 63%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[3.411551] (yolov8_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/yolov8_msgs/msg/detail/human_position__type_support_c.cpp.o\x1b[0m\n'}
+[3.413009] (-) TimerEvent: {}
+[3.423248] (yolov8_msgs) StdoutLine: {'line': b'[ 68%] \x1b[1m\x1b[32mLinking C shared library libyolov8_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.432864] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[1m\x1b[32mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.476897] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.502896] (yolov8_msgs) StdoutLine: {'line': b'[ 70%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[3.514618] (-) TimerEvent: {}
+[3.620829] (-) TimerEvent: {}
+[3.722690] (-) TimerEvent: {}
+[3.823283] (-) TimerEvent: {}
+[3.827908] (yolov8_msgs) StdoutLine: {'line': b'[ 72%] \x1b[1m\x1b[32mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.830767] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] \x1b[1m\x1b[32mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.923496] (-) TimerEvent: {}
+[3.926509] (yolov8_msgs) StdoutLine: {'line': b'[ 74%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.927123] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[1m\x1b[32mLinking CXX shared library libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.927314] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[3.989236] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.000544] (yolov8_msgs) StdoutLine: {'line': b'[ 76%] \x1b[0mBuilt target yolov8_msgs\x1b[0m\n'}
+[4.009370] (yolov8_msgs) StdoutLine: {'line': b'[ 78%] \x1b[1m\x1b[34mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[4.023585] (-) TimerEvent: {}
+[4.123886] (-) TimerEvent: {}
+[4.224323] (-) TimerEvent: {}
+[4.324689] (-) TimerEvent: {}
+[4.381124] (yolov8_msgs) StdoutLine: {'line': b'[ 78%] \x1b[0mBuilt target yolov8_msgs__py\x1b[0m\n'}
+[4.395327] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_human_position_s.c.o\x1b[0m\n'}
+[4.395615] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_yolov8_inference_s.c.o\x1b[0m\n'}
+[4.395693] (yolov8_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_generator_py.dir/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c.o\x1b[0m\n'}
+[4.424795] (-) TimerEvent: {}
+[4.484320] (yolov8_msgs) StdoutLine: {'line': b'[ 87%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[4.516357] (yolov8_msgs) StdoutLine: {'line': b'[ 87%] \x1b[0mBuilt target yolov8_msgs__rosidl_generator_py\x1b[0m\n'}
+[4.524920] (-) TimerEvent: {}
+[4.529665] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[4.529903] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.529998] (yolov8_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/yolov8_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[4.625047] (-) TimerEvent: {}
+[4.630454] (yolov8_msgs) StdoutLine: {'line': b'[ 95%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.634382] (yolov8_msgs) StdoutLine: {'line': b'[ 97%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.646616] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[1m\x1b[32mLinking C shared library rosidl_generator_py/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[4.663542] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[4.670464] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[4.686539] (yolov8_msgs) StdoutLine: {'line': b'[100%] \x1b[0mBuilt target yolov8_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[4.693792] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[4.694406] (yolov8_msgs) JobProgress: {'identifier': 'yolov8_msgs', 'progress': 'install'}
+[4.725139] (-) TimerEvent: {}
+[4.797414] (yolov8_msgs) Command: {'cmd': ['/home/doanh/.local/bin/cmake', '--install', '/home/doanh/robot_detect/build/yolov8_msgs'], 'cwd': '/home/doanh/robot_detect/build/yolov8_msgs', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'doanh'), ('LC_TIME', 'vi_VN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/doanh/robot_detect/install/yolov8_msgs/lib:/home/doanh/go2_robot/install/fast_lio/lib:/home/doanh/go2_robot/install/livox_ros_driver2/lib:/home/doanh/go2_robot/install/go2_interfaces/lib:/home/doanh/mrdoanh_projects/install/go2_interfaces/lib:/home/doanh/new/mrdoanh_projects/install/go2_interfaces/lib:/home/doanh/livox_mapping/install/fast_lio/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('HOME', '/home/doanh'), ('OLDPWD', '/home/doanh/robot_detect/src'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'vi_VN.UTF-8'), ('MANAGERPID', '1554'), ('SYSTEMD_EXEC_PID', '1810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '67588'), ('COLCON_PREFIX_PATH', '/home/doanh/robot_detect/install:/home/doanh/go2_robot/install:/home/doanh/mrdoanh_projects/install:/home/doanh/new/mrdoanh_projects/install:/home/doanh/livox_mapping/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'doanh'), ('JOURNAL_STREAM', '8:8731'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'doanh'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/doanh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/latop:@/tmp/.ICE-unix/1782,unix/latop:/tmp/.ICE-unix/1782'), ('INVOCATION_ID', 'e4842607c8be4c87862d8f357b8622a5'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'vi_VN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'vi_VN.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/doanh/robot_detect/install/follow_human:/home/doanh/robot_detect/install/human_follow:/home/doanh/robot_detect/install/yolov8_msgs:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_recognition:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/fast_lio:/home/doanh/go2_robot/install/livox_ros_driver2:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/go2_interfaces:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/go2_interfaces:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/go2_interfaces:/home/doanh/new/mrdoanh_projects/install/coco_detector:/home/doanh/livox_mapping/install/fast_lio:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'vi_VN.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:60e4e08b-4b02-4f61-8b36-16341ccf4720'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'vi_VN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'vi_VN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/doanh/robot_detect/build/yolov8_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages:/home/doanh/robot_detect/install/human_follow/lib/python3.10/site-packages:/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages:/home/doanh/robot_detect/install/robot_simulation/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:/home/doanh/robot_detect/install/robot_joy/lib/python3.10/site-packages:/home/doanh/go2_robot/install/speech_processor/lib/python3.10/site-packages:/home/doanh/go2_robot/install/reset_odom/lib/python3.10/site-packages:/home/doanh/go2_robot/install/livox_to_laserscan/lib/python3.10/site-packages:/home/doanh/go2_robot/install/fast_lio/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/livox_ros_driver2/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/go2_robot/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/go2_robot/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/go2_robot/install/coco_detector/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/speech_processor/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/mrdoanh_projects/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/mrdoanh_projects/install/coco_detector/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/speech_processor/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/lidar_processor/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk/lib/python3.10/site-packages:/home/doanh/new/mrdoanh_projects/install/go2_interfaces/local/lib/python3.10/dist-packages:/home/doanh/new/mrdoanh_projects/install/coco_detector/lib/python3.10/site-packages:/home/doanh/livox_mapping/install/fast_lio/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'vi_VN.UTF-8'), ('LC_PAPER', 'vi_VN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/doanh/robot_detect/install/yolov8_msgs:/home/doanh/robot_detect/install/robot_recognition:/home/doanh/go2_robot/install/fast_lio:/home/doanh/go2_robot/install/livox_ros_driver2:/home/doanh/go2_robot/install/go2_interfaces:/home/doanh/mrdoanh_projects/install/go2_interfaces:/home/doanh/new/mrdoanh_projects/install/go2_interfaces:/home/doanh/livox_mapping/install/fast_lio:/home/doanh/robot_detect/install/follow_human:/home/doanh/robot_detect/install/human_follow:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble')]), 'shell': False}
+[4.825237] (-) TimerEvent: {}
+[4.878632] (yolov8_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.879077] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/rosidl_interfaces/yolov8_msgs\n'}
+[4.879265] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.879351] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.879420] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.879491] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.h\n'}
+[4.879558] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/human_position.h\n'}
+[4.879679] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.879756] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__struct.h\n'}
+[4.879824] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__functions.c\n'}
+[4.879891] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.h\n'}
+[4.879957] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.h\n'}
+[4.880027] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.h\n'}
+[4.880154] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.h\n'}
+[4.880232] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__type_support.h\n'}
+[4.880322] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.h\n'}
+[4.880410] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__functions.c\n'}
+[4.880481] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__functions.c\n'}
+[4.880548] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__functions.h\n'}
+[4.880638] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.h\n'}
+[4.880703] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.h\n'}
+[4.880818] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.sh\n'}
+[4.880901] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/library_path.dsv\n'}
+[4.881073] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so\n'}
+[4.881376] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_c.so" to ""\n'}
+[4.881492] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.881565] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.881674] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.881745] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__rosidl_typesupport_fastrtps_c.h\n'}
+[4.881866] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_c.h\n'}
+[4.881932] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_c.h\n'}
+[4.882006] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.882088] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.882341] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.882448] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.882544] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.882633] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/inference_result.hpp\n'}
+[4.882734] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.882823] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.hpp\n'}
+[4.882888] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__traits.hpp\n'}
+[4.882970] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__traits.hpp\n'}
+[4.883064] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.hpp\n'}
+[4.883152] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__builder.hpp\n'}
+[4.883233] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__struct.hpp\n'}
+[4.883337] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__type_support.hpp\n'}
+[4.883435] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__struct.hpp\n'}
+[4.883533] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__builder.hpp\n'}
+[4.883627] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__struct.hpp\n'}
+[4.883725] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__traits.hpp\n'}
+[4.883822] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__builder.hpp\n'}
+[4.883917] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/yolov8_inference.hpp\n'}
+[4.884012] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/human_position.hpp\n'}
+[4.884121] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.884235] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.884345] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.884466] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.884554] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.884643] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.884759] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.884821] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/dds_fastrtps\n'}
+[4.884899] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.884972] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.885289] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.885462] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.885556] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.885624] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.885695] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__type_support.c\n'}
+[4.885823] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_c.h\n'}
+[4.885917] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__rosidl_typesupport_introspection_c.h\n'}
+[4.886003] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.c\n'}
+[4.886351] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_c.h\n'}
+[4.886508] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.c\n'}
+[4.886580] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.886647] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.886746] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.886816] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so\n'}
+[4.887013] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.887230] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs\n'}
+[4.887302] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg\n'}
+[4.887346] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail\n'}
+[4.887389] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__type_support.cpp\n'}
+[4.887486] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__type_support.cpp\n'}
+[4.887544] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/inference_result__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.887602] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/yolov8_inference__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.887658] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__type_support.cpp\n'}
+[4.887696] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/include/yolov8_msgs/yolov8_msgs/msg/detail/human_position__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.887812] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.888103] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.888210] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so\n'}
+[4.888443] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.888520] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.sh\n'}
+[4.888593] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/pythonpath.dsv\n'}
+[4.888661] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info\n'}
+[4.888733] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[4.888801] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[4.888919] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.888990] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.889070] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs\n'}
+[4.889135] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py\n'}
+[4.889226] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so\n'}
+[4.889411] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg\n'}
+[4.889494] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py\n'}
+[4.889606] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py\n'}
+[4.889704] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_human_position_s.c\n'}
+[4.889761] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_human_position.py\n'}
+[4.889850] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference_s.c\n'}
+[4.889931] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py\n'}
+[4.890002] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result_s.c\n'}
+[4.890086] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.890161] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.890218] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.890279] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/_yolov8_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.890344] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.890416] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.925322] (-) TimerEvent: {}
+[4.939930] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs'...\n"}
+[4.940126] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/__init__.py'...\n"}
+[4.940187] (yolov8_msgs) StdoutLine: {'line': b"Listing '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg'...\n"}
+[4.940240] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/__init__.py'...\n"}
+[4.940305] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_human_position.py'...\n"}
+[4.940345] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_inference_result.py'...\n"}
+[4.940382] (yolov8_msgs) StdoutLine: {'line': b"Compiling '/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/msg/_yolov8_inference.py'...\n"}
+[4.944534] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.944703] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.944777] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.944894] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.944994] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[4.945156] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/local/lib/python3.10/dist-packages/yolov8_msgs/yolov8_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[4.945236] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so\n'}
+[4.945455] (yolov8_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/doanh/robot_detect/install/yolov8_msgs/lib/libyolov8_msgs__rosidl_generator_py.so" to ""\n'}
+[4.945525] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.idl\n'}
+[4.945583] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.idl\n'}
+[4.945624] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/HumanPosition.idl\n'}
+[4.945683] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/InferenceResult.msg\n'}
+[4.945722] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/Yolov8Inference.msg\n'}
+[4.945760] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/msg/HumanPosition.msg\n'}
+[4.945810] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/package_run_dependencies/yolov8_msgs\n'}
+[4.945873] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/parent_prefix_path/yolov8_msgs\n'}
+[4.945910] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.sh\n'}
+[4.945948] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/ament_prefix_path.dsv\n'}
+[4.945984] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/path.sh\n'}
+[4.946022] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/environment/path.dsv\n'}
+[4.946088] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.bash\n'}
+[4.946125] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.sh\n'}
+[4.946173] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.zsh\n'}
+[4.946212] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/local_setup.dsv\n'}
+[4.946249] (yolov8_msgs) StdoutLine: {'line': b'-- Installing: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.dsv\n'}
+[4.946284] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/ament_index/resource_index/packages/yolov8_msgs\n'}
+[4.946335] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport.cmake\n'}
+[4.946400] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.946458] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.946496] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.946568] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.946624] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.946662] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.946700] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.946738] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.946774] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.946812] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.946849] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.946900] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.946973] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.947013] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.947060] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.947102] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/export_yolov8_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.947141] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.947179] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.947218] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.947256] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.947296] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.947334] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.947372] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.947414] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig.cmake\n'}
+[4.947457] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/cmake/yolov8_msgsConfig-version.cmake\n'}
+[4.947495] (yolov8_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.xml\n'}
+[4.948666] (yolov8_msgs) CommandEnded: {'returncode': 0}
+[4.967201] (yolov8_msgs) JobEnded: {'identifier': 'yolov8_msgs', 'rc': 0}
+[4.968649] (-) EventReactorShutdown: {}

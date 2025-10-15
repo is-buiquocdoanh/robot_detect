@@ -1,0 +1,11 @@
+setup.py
+yolov8_msgs/__init__.py
+yolov8_msgs.egg-info/PKG-INFO
+yolov8_msgs.egg-info/SOURCES.txt
+yolov8_msgs.egg-info/dependency_links.txt
+yolov8_msgs.egg-info/top_level.txt
+yolov8_msgs/msg/__init__.py
+yolov8_msgs/msg/_human_position.py
+yolov8_msgs/msg/_human_position_array.py
+yolov8_msgs/msg/_inference_result.py
+yolov8_msgs/msg/_yolov8_inference.py

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/HumanPosition.msg
+// generated code does not contain a copyright notice
+
+
+module yolov8_msgs {
+  module msg {
+    struct HumanPosition {
+      float x_center;
+
+      float y_center;
+
+      float width;
+
+      float height;
+
+      float confidence;
+    };
+  };
+};

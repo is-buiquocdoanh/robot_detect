@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from yolov8_msgs/msg/InferenceResult.msg
+// generated code does not contain a copyright notice
+
+
+module yolov8_msgs {
+  module msg {
+    struct InferenceResult {
+      string class_name;
+
+      int64 top;
+
+      int64 left;
+
+      int64 bottom;
+
+      int64 right;
+    };
+  };
+};

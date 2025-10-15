@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/follow_human/follow_human.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_human/follow_human.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_human/follow_human.egg-info/entry_points.txt
+writing requirements to ../../build/follow_human/follow_human.egg-info/requires.txt
+writing top-level names to ../../build/follow_human/follow_human.egg-info/top_level.txt
+reading manifest file '../../build/follow_human/follow_human.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_human/follow_human.egg-info/SOURCES.txt'
+running build
+running build_py
+copying follow_human/human_position_publisher.py -> /home/doanh/robot_detect/build/follow_human/build/lib/follow_human
+running install
+running install_lib
+copying /home/doanh/robot_detect/build/follow_human/build/lib/follow_human/human_position_publisher.py -> /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human
+byte-compiling /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human/human_position_publisher.py to human_position_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/follow_human/follow_human.egg-info to /home/doanh/robot_detect/install/follow_human/lib/python3.10/site-packages/follow_human-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_human script to /home/doanh/robot_detect/install/follow_human/lib/follow_human
+Installing human_position_publisher script to /home/doanh/robot_detect/install/follow_human/lib/follow_human
+writing list of installed files to '/home/doanh/robot_detect/build/follow_human/install.log'

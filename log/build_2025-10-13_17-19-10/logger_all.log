@@ -1,0 +1,417 @@
+[0.087s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.087s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ca30c9025c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ca30ca77a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ca30ca77a30>>)
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.237s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.237s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/doanh/robot_detect'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_joy) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_joy' with type 'ros.ament_python' and name 'robot_joy'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_mapping) by extension 'ros'
+[0.259s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_mapping' with type 'ros.ament_python' and name 'robot_mapping'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extension 'colcon_meta'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extensions ['ros']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_navigation) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_navigation' with type 'ros.ament_python' and name 'robot_navigation'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extension 'ignore_ament_install'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extensions ['colcon_pkg']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extension 'colcon_pkg'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extensions ['colcon_meta']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_recognition) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_recognition' with type 'ros.ament_cmake' and name 'robot_recognition'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_simulation) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_simulation' with type 'ros.ament_python' and name 'robot_simulation'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yolov8_msgs) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yolov8_msgs' with type 'ros.ament_cmake' and name 'yolov8_msgs'
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.280s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/doanh/robot_detect/install
+[0.282s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/doanh/go2_robot/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/doanh/mrdoanh_projects/install
+[0.283s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/doanh/new/mrdoanh_projects/install
+[0.284s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/doanh/livox_mapping/install
+[0.285s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 411 installed packages in /opt/ros/humble
+[0.286s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_joy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.320s] DEBUG:colcon.colcon_core.verb:Building package 'robot_joy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/robot_joy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/robot_joy', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/robot_joy', 'symlink_install': False, 'test_result_base': None}
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_target' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_clean_first' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'cmake_force_configure' from command line to 'False'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'ament_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[0.320s] Level 5:colcon.colcon_core.verb:set package 'robot_mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'robot_mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/robot_mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/robot_mapping', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/robot_mapping', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'robot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/robot_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/robot_navigation', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/robot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_clean_cache' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_clean_first' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'cmake_force_configure' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'ament_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'catkin_cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_recognition' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.321s] DEBUG:colcon.colcon_core.verb:Building package 'robot_recognition' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/robot_recognition', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/robot_recognition', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/robot_recognition', 'symlink_install': False, 'test_result_base': None}
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_args' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_target' from command line to 'None'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.321s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'robot_simulation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'robot_simulation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/robot_simulation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/robot_simulation', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/robot_simulation', 'symlink_install': False, 'test_result_base': None}
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.322s] Level 5:colcon.colcon_core.verb:set package 'yolov8_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.322s] DEBUG:colcon.colcon_core.verb:Building package 'yolov8_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/doanh/robot_detect/build/yolov8_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/doanh/robot_detect/install/yolov8_msgs', 'merge_install': False, 'path': '/home/doanh/robot_detect/src/yolov8_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.322s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.323s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.323s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/robot_detect/src/robot_joy' with build type 'ament_python'
+[0.323s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_joy', 'ament_prefix_path')
+[0.325s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.325s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/ament_prefix_path.ps1'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/ament_prefix_path.dsv'
+[0.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/ament_prefix_path.sh'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.331s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/robot_detect/src/robot_mapping' with build type 'ament_python'
+[0.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_mapping', 'ament_prefix_path')
+[0.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/ament_prefix_path.ps1'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/ament_prefix_path.dsv'
+[0.332s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/ament_prefix_path.sh'
+[0.332s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.332s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.336s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/robot_detect/src/robot_navigation' with build type 'ament_python'
+[0.337s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation', 'ament_prefix_path')
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/ament_prefix_path.ps1'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/ament_prefix_path.dsv'
+[0.337s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/ament_prefix_path.sh'
+[0.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/robot_detect/src/robot_recognition' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/robot_detect/src/robot_recognition'
+[0.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.347s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/doanh/robot_detect/src/robot_simulation' with build type 'ament_python'
+[0.347s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_simulation', 'ament_prefix_path')
+[0.347s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/ament_prefix_path.ps1'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/ament_prefix_path.dsv'
+[0.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/ament_prefix_path.sh'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.348s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/doanh/robot_detect/src/yolov8_msgs' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/doanh/robot_detect/src/yolov8_msgs'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.603s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/robot_detect/src/robot_joy'
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/robot_detect/src/robot_mapping'
+[0.848s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.848s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.090s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/robot_detect/src/robot_navigation'
+[1.090s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.090s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/build/robot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/robot_recognition -- -j12 -l12
+[1.338s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/doanh/robot_detect/src/robot_simulation'
+[1.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/yolov8_msgs -- -j12 -l12
+[1.348s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/build/robot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/robot_recognition -- -j12 -l12
+[1.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/build/robot_recognition': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/robot_recognition
+[1.541s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_recognition)
+[1.542s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/build/robot_recognition' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/robot_recognition
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition' for CMake module files
+[1.544s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition' for CMake config files
+[1.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_recognition', 'cmake_prefix_path')
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.ps1'
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.dsv'
+[1.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.sh'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib'
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/bin'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib/pkgconfig/robot_recognition.pc'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib/python3.10/site-packages'
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/bin'
+[1.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.dsv'
+[1.548s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.sh'
+[1.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.bash'
+[1.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.zsh'
+[1.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_recognition/share/colcon-core/packages/robot_recognition)
+[1.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_recognition)
+[1.551s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition' for CMake module files
+[1.552s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition' for CMake config files
+[1.552s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_recognition', 'cmake_prefix_path')
+[1.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.ps1'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.dsv'
+[1.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/hook/cmake_prefix_path.sh'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/bin'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib/pkgconfig/robot_recognition.pc'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/lib/python3.10/site-packages'
+[1.554s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_recognition/bin'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.ps1'
+[1.555s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.dsv'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.sh'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.bash'
+[1.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_recognition/share/robot_recognition/package.zsh'
+[1.557s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_recognition/share/colcon-core/packages/robot_recognition)
+[1.899s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --build /home/doanh/robot_detect/build/yolov8_msgs -- -j12 -l12
+[1.902s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/build/yolov8_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/yolov8_msgs
+[2.063s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[2.064s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs' for CMake module files
+[2.065s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/build/yolov8_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/doanh/robot_detect/install/robot_simulation:/home/doanh/robot_detect/install/robot_navigation:/home/doanh/robot_detect/install/robot_mapping:/home/doanh/robot_detect/install/robot_joy:/home/doanh/go2_robot/install/speech_processor:/home/doanh/go2_robot/install/reset_odom:/home/doanh/go2_robot/install/livox_to_laserscan:/home/doanh/go2_robot/install/lidar_processor:/home/doanh/go2_robot/install/go2_robot_sdk:/home/doanh/go2_robot/install/coco_detector:/home/doanh/mrdoanh_projects/install/speech_processor:/home/doanh/mrdoanh_projects/install/lidar_processor:/home/doanh/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/mrdoanh_projects/install/coco_detector:/home/doanh/new/mrdoanh_projects/install/speech_processor:/home/doanh/new/mrdoanh_projects/install/lidar_processor:/home/doanh/new/mrdoanh_projects/install/go2_robot_sdk:/home/doanh/new/mrdoanh_projects/install/coco_detector:/opt/ros/humble /home/doanh/.local/bin/cmake --install /home/doanh/robot_detect/build/yolov8_msgs
+[2.065s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs' for CMake config files
+[2.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[2.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[2.068s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[2.069s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib'
+[2.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[2.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/bin'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib/python3.10/site-packages'
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/bin'
+[2.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[2.072s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[2.073s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[2.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolov8_msgs)
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs' for CMake module files
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs' for CMake config files
+[2.076s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'cmake_prefix_path')
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/cmake_prefix_path.sh'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib'
+[2.078s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolov8_msgs', 'ld_library_path_lib')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.ps1'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/hook/ld_library_path_lib.sh'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/bin'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib/pkgconfig/yolov8_msgs.pc'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/lib/python3.10/site-packages'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/yolov8_msgs/bin'
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.sh'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.bash'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/yolov8_msgs/share/yolov8_msgs/package.zsh'
+[2.082s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/yolov8_msgs/share/colcon-core/packages/yolov8_msgs)
+[2.127s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/src/robot_simulation': PYTHONPATH=/home/doanh/robot_detect/build/robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_simulation build --build-base /home/doanh/robot_detect/build/robot_simulation/build install --record /home/doanh/robot_detect/build/robot_simulation/install.log --single-version-externally-managed install_data
+[2.134s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/src/robot_navigation': PYTHONPATH=/home/doanh/robot_detect/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/doanh/robot_detect/build/robot_navigation/build install --record /home/doanh/robot_detect/build/robot_navigation/install.log --single-version-externally-managed install_data
+[2.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/src/robot_joy': PYTHONPATH=/home/doanh/robot_detect/build/robot_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_joy build --build-base /home/doanh/robot_detect/build/robot_joy/build install --record /home/doanh/robot_detect/build/robot_joy/install.log --single-version-externally-managed install_data
+[2.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/doanh/robot_detect/src/robot_mapping': PYTHONPATH=/home/doanh/robot_detect/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/doanh/robot_detect/build/robot_mapping/build install --record /home/doanh/robot_detect/build/robot_mapping/install.log --single-version-externally-managed install_data
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation' for CMake module files
+[2.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/src/robot_simulation' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_simulation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_simulation build --build-base /home/doanh/robot_detect/build/robot_simulation/build install --record /home/doanh/robot_detect/build/robot_simulation/install.log --single-version-externally-managed install_data
+[2.455s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation' for CMake config files
+[2.456s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation/lib'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation/bin'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation/lib/pkgconfig/robot_simulation.pc'
+[2.457s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation/lib/python3.10/site-packages'
+[2.457s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_simulation', 'pythonpath')
+[2.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/pythonpath.ps1'
+[2.459s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/pythonpath.dsv'
+[2.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/hook/pythonpath.sh'
+[2.460s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_simulation/bin'
+[2.460s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_simulation)
+[2.461s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/package.ps1'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/package.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/package.sh'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/package.bash'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_simulation/share/robot_simulation/package.zsh'
+[2.463s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_simulation/share/colcon-core/packages/robot_simulation)
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation' for CMake module files
+[2.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/src/robot_navigation' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/doanh/robot_detect/build/robot_navigation/build install --record /home/doanh/robot_detect/build/robot_navigation/install.log --single-version-externally-managed install_data
+[2.470s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation' for CMake config files
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation/lib'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation/bin'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation/lib/pkgconfig/robot_navigation.pc'
+[2.471s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages'
+[2.472s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_navigation', 'pythonpath')
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/pythonpath.ps1'
+[2.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/pythonpath.dsv'
+[2.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/hook/pythonpath.sh'
+[2.473s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_navigation/bin'
+[2.473s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_navigation)
+[2.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/package.ps1'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/package.dsv'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/package.sh'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/package.bash'
+[2.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/package.zsh'
+[2.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_navigation/share/colcon-core/packages/robot_navigation)
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy' for CMake module files
+[2.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/src/robot_joy' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_joy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_joy/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_joy build --build-base /home/doanh/robot_detect/build/robot_joy/build install --record /home/doanh/robot_detect/build/robot_joy/install.log --single-version-externally-managed install_data
+[2.476s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy' for CMake config files
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy/lib'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy/bin'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy/lib/pkgconfig/robot_joy.pc'
+[2.477s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy/lib/python3.10/site-packages'
+[2.477s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_joy', 'pythonpath')
+[2.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/pythonpath.ps1'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/pythonpath.dsv'
+[2.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/hook/pythonpath.sh'
+[2.478s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_joy/bin'
+[2.479s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_joy)
+[2.479s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/package.ps1'
+[2.479s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/package.dsv'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/package.sh'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/package.bash'
+[2.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_joy/share/robot_joy/package.zsh'
+[2.480s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_joy/share/colcon-core/packages/robot_joy)
+[2.493s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping' for CMake module files
+[2.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/doanh/robot_detect/src/robot_mapping' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/doanh/robot_detect/build/robot_mapping/build install --record /home/doanh/robot_detect/build/robot_mapping/install.log --single-version-externally-managed install_data
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping' for CMake config files
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping/lib'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping/bin'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping/lib/pkgconfig/robot_mapping.pc'
+[2.494s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages'
+[2.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_mapping', 'pythonpath')
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/pythonpath.ps1'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/pythonpath.dsv'
+[2.495s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/hook/pythonpath.sh'
+[2.496s] Level 1:colcon.colcon_core.environment:checking '/home/doanh/robot_detect/install/robot_mapping/bin'
+[2.496s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_mapping)
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/package.ps1'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/package.dsv'
+[2.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/package.sh'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/package.bash'
+[2.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/doanh/robot_detect/install/robot_mapping/share/robot_mapping/package.zsh'
+[2.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/doanh/robot_detect/install/robot_mapping/share/colcon-core/packages/robot_mapping)
+[2.497s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.498s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.498s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.503s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.503s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.512s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.512s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/robot_detect/install/local_setup.ps1'
+[2.513s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doanh/robot_detect/install/_local_setup_util_ps1.py'
+[2.514s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/robot_detect/install/setup.ps1'
+[2.515s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/robot_detect/install/local_setup.sh'
+[2.516s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/doanh/robot_detect/install/_local_setup_util_sh.py'
+[2.516s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/robot_detect/install/setup.sh'
+[2.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/robot_detect/install/local_setup.bash'
+[2.517s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/robot_detect/install/setup.bash'
+[2.519s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/doanh/robot_detect/install/local_setup.zsh'
+[2.519s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/doanh/robot_detect/install/setup.zsh'

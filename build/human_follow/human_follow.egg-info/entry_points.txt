@@ -1,0 +1,3 @@
+[console_scripts]
+follow_human = human_follow.human_follow:main
+

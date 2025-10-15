@@ -1,0 +1,583 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "rosidl_generator_py/yolov8_msgs/libyolov8_msgs__rosidl_generator_py.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"set_lib_properties",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake",
+			"/opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/humble/share/rosidl_typesupport_c/cmake/rosidl_typesupport_c_generate_interfaces.cmake",
+			"/opt/ros/humble/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/humble/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/humble/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 286,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 302,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 175,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 213,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 291,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 167,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 4,
+				"parent" : 12
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 130,
+				"parent" : 13
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 5,
+				"parent" : 15
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 132,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 4,
+				"line" : 130,
+				"parent" : 13
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 132,
+				"parent" : 16
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 137,
+				"parent" : 16
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 20,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 21
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 22
+			},
+			{
+				"file" : 13,
+				"parent" : 23
+			},
+			{
+				"command" : 7,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 24
+			},
+			{
+				"file" : 12,
+				"parent" : 25
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 26
+			},
+			{
+				"file" : 11,
+				"parent" : 27
+			},
+			{
+				"command" : 7,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 28
+			},
+			{
+				"file" : 10,
+				"parent" : 29
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 30
+			},
+			{
+				"file" : 9,
+				"parent" : 31
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 32
+			},
+			{
+				"file" : 8,
+				"parent" : 33
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 34
+			},
+			{
+				"file" : 7,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 36
+			},
+			{
+				"file" : 6,
+				"parent" : 37
+			},
+			{
+				"command" : 6,
+				"file" : 6,
+				"line" : 56,
+				"parent" : 38
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 169,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 294,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 156,
+				"parent" : 41
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 17,
+				"parent" : 43
+			},
+			{
+				"command" : 7,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 44
+			},
+			{
+				"file" : 16,
+				"parent" : 45
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 46
+			},
+			{
+				"file" : 15,
+				"parent" : 47
+			},
+			{
+				"command" : 10,
+				"file" : 15,
+				"line" : 25,
+				"parent" : 48
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 179,
+				"parent" : 4
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu99 -fPIC"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 42,
+					"fragment" : "-Wextra"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 11,
+					"define" : "RCUTILS_ENABLE_FAULT_INJECTION"
+				},
+				{
+					"backtrace" : 49,
+					"define" : "ROS_PACKAGE_NAME=\"yolov8_msgs\""
+				},
+				{
+					"define" : "yolov8_msgs__rosidl_generator_py_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 50,
+					"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_py"
+				},
+				{
+					"backtrace" : 50,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/std_msgs"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rcutils"
+				},
+				{
+					"backtrace" : 11,
+					"isSystem" : true,
+					"path" : "/opt/ros/humble/include/rosidl_typesupport_interface"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					5
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 40,
+			"id" : "yolov8_msgs__py::@28283e549f6cf85feae6"
+		},
+		{
+			"backtrace" : 40,
+			"id" : "yolov8_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df"
+		},
+		{
+			"backtrace" : 11,
+			"id" : "yolov8_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "yolov8_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 6,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/doanh/robot_detect/install/yolov8_msgs"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-shared",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/doanh/robot_detect/build/yolov8_msgs:/opt/ros/humble/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "libyolov8_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "libyolov8_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 7,
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libpython3.10.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 14,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "/opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/humble/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 20,
+				"fragment" : "/opt/ros/humble/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 39,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-Wl,-rpath-link,/opt/ros/humble/lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "yolov8_msgs__rosidl_generator_py",
+	"nameOnDisk" : "libyolov8_msgs__rosidl_generator_py.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_inference_result_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_yolov8_inference_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_human_position_s.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/doanh/robot_detect/build/yolov8_msgs/rosidl_generator_py/yolov8_msgs/msg/_human_position_array_s.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

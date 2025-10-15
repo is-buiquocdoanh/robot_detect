@@ -1,0 +1,43 @@
+[1.766s] Invoking command in '/home/doanh/robot_detect/src/robot_navigation': PYTHONPATH=/home/doanh/robot_detect/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/doanh/robot_detect/build/robot_navigation/build install --record /home/doanh/robot_detect/build/robot_navigation/install.log --single-version-externally-managed install_data
+[2.082s] running egg_info
+[2.083s] creating ../../build/robot_navigation/robot_navigation.egg-info
+[2.083s] writing ../../build/robot_navigation/robot_navigation.egg-info/PKG-INFO
+[2.084s] writing dependency_links to ../../build/robot_navigation/robot_navigation.egg-info/dependency_links.txt
+[2.084s] writing entry points to ../../build/robot_navigation/robot_navigation.egg-info/entry_points.txt
+[2.084s] writing requirements to ../../build/robot_navigation/robot_navigation.egg-info/requires.txt
+[2.084s] writing top-level names to ../../build/robot_navigation/robot_navigation.egg-info/top_level.txt
+[2.084s] writing manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[2.088s] reading manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[2.088s] writing manifest file '../../build/robot_navigation/robot_navigation.egg-info/SOURCES.txt'
+[2.088s] running build
+[2.088s] running build_py
+[2.089s] creating /home/doanh/robot_detect/build/robot_navigation/build
+[2.089s] creating /home/doanh/robot_detect/build/robot_navigation/build/lib
+[2.089s] creating /home/doanh/robot_detect/build/robot_navigation/build/lib/robot_navigation
+[2.089s] copying robot_navigation/__init__.py -> /home/doanh/robot_detect/build/robot_navigation/build/lib/robot_navigation
+[2.089s] running install
+[2.089s] running install_lib
+[2.091s] creating /home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[2.091s] copying /home/doanh/robot_detect/build/robot_navigation/build/lib/robot_navigation/__init__.py -> /home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages/robot_navigation
+[2.093s] byte-compiling /home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages/robot_navigation/__init__.py to __init__.cpython-310.pyc
+[2.094s] running install_data
+[2.094s] creating /home/doanh/robot_detect/install/robot_navigation/share/ament_index
+[2.094s] creating /home/doanh/robot_detect/install/robot_navigation/share/ament_index/resource_index
+[2.094s] creating /home/doanh/robot_detect/install/robot_navigation/share/ament_index/resource_index/packages
+[2.094s] copying resource/robot_navigation -> /home/doanh/robot_detect/install/robot_navigation/share/ament_index/resource_index/packages
+[2.095s] copying package.xml -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation
+[2.095s] creating /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/launch
+[2.095s] copying launch/navigation.launch.py -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/launch
+[2.095s] creating /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/config
+[2.095s] copying config/nav2_params.yaml -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/config
+[2.095s] creating /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/maps
+[2.095s] copying maps/map.pgm -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/maps
+[2.096s] copying maps/my_map.pgm -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/maps
+[2.096s] copying maps/my_map.yaml -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/maps
+[2.096s] copying maps/map.yaml -> /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/maps
+[2.097s] creating /home/doanh/robot_detect/install/robot_navigation/share/robot_navigation/rviz
+[2.098s] running install_egg_info
+[2.101s] Copying ../../build/robot_navigation/robot_navigation.egg-info to /home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages/robot_navigation-0.0.0-py3.10.egg-info
+[2.101s] running install_scripts
+[2.121s] writing list of installed files to '/home/doanh/robot_detect/build/robot_navigation/install.log'
+[2.213s] Invoked command in '/home/doanh/robot_detect/src/robot_navigation' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_navigation build --build-base /home/doanh/robot_detect/build/robot_navigation/build install --record /home/doanh/robot_detect/build/robot_navigation/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[2.189s] Invoking command in '/home/doanh/robot_detect/src/robot_mapping': PYTHONPATH=/home/doanh/robot_detect/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/doanh/robot_detect/build/robot_mapping/build install --record /home/doanh/robot_detect/build/robot_mapping/install.log --single-version-externally-managed install_data
+[2.510s] running egg_info
+[2.512s] writing ../../build/robot_mapping/robot_mapping.egg-info/PKG-INFO
+[2.512s] writing dependency_links to ../../build/robot_mapping/robot_mapping.egg-info/dependency_links.txt
+[2.512s] writing entry points to ../../build/robot_mapping/robot_mapping.egg-info/entry_points.txt
+[2.512s] writing requirements to ../../build/robot_mapping/robot_mapping.egg-info/requires.txt
+[2.512s] writing top-level names to ../../build/robot_mapping/robot_mapping.egg-info/top_level.txt
+[2.514s] reading manifest file '../../build/robot_mapping/robot_mapping.egg-info/SOURCES.txt'
+[2.515s] writing manifest file '../../build/robot_mapping/robot_mapping.egg-info/SOURCES.txt'
+[2.515s] running build
+[2.515s] running build_py
+[2.515s] running install
+[2.515s] running install_lib
+[2.516s] running install_data
+[2.517s] running install_egg_info
+[2.518s] removing '/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages/robot_mapping-0.0.0-py3.10.egg-info' (and everything under it)
+[2.519s] Copying ../../build/robot_mapping/robot_mapping.egg-info to /home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages/robot_mapping-0.0.0-py3.10.egg-info
+[2.519s] running install_scripts
+[2.545s] writing list of installed files to '/home/doanh/robot_detect/build/robot_mapping/install.log'
+[2.602s] Invoked command in '/home/doanh/robot_detect/src/robot_mapping' returned '0': PYTHONPATH=/home/doanh/robot_detect/build/robot_mapping/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/doanh/robot_detect/install/robot_mapping/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_mapping build --build-base /home/doanh/robot_detect/build/robot_mapping/build install --record /home/doanh/robot_detect/build/robot_mapping/install.log --single-version-externally-managed install_data

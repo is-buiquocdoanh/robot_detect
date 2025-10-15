@@ -1,0 +1,12 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+numpy>=1.18.5
+lap>=0.4.0
+opencv-python>=4.7.0
+ultralytics>=8.0.58
+setuptools>=58.2.0
+
+# Extra ---------------------------------------
+# pycocotools>=2.0  # COCO mAP
+# roboflow

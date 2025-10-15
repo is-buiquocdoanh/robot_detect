@@ -1,0 +1,9 @@
+{
+  "package_name": "yolov8_msgs",
+  "non_idl_tuples": [
+    "/home/doanh/robot_detect/src/yolov8_msgs:msg/InferenceResult.msg",
+    "/home/doanh/robot_detect/src/yolov8_msgs:msg/Yolov8Inference.msg",
+    "/home/doanh/robot_detect/src/yolov8_msgs:msg/HumanPosition.msg",
+    "/home/doanh/robot_detect/src/yolov8_msgs:msg/HumanPositionArray.msg"
+  ]
+}
