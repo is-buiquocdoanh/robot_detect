@@ -40,6 +40,7 @@ pip install -r src/requirements.txt
 ### Usage
 1. Git clone directory
 ```bash
+git clone https://github.com/is-buiquocdoanh/robot_detect.git
 ```
 2. Build
 ```bash
