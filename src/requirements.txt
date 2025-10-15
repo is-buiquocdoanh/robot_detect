@@ -1,12 +1,24 @@
 # Usage: pip install -r requirements.txt
 
-# Base ----------------------------------------
-numpy>=1.18.5
-lap>=0.4.0
-opencv-python>=4.7.0
-ultralytics>=8.0.58
-setuptools>=58.2.0
+# === Core ROS2 Python packages ===
+rclpy>=3.1.0
+cv_bridge>=3.2.1
+sensor_msgs
+std_msgs
+geometry_msgs
+ament_index_python
 
-# Extra ---------------------------------------
-# pycocotools>=2.0  # COCO mAP
-# roboflow
+# === Computer vision & AI ===
+ultralytics>=8.2.50
+opencv-python>=4.8.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# === Utility packages ===
+numpy>=1.23.0
+Pillow>=9.0.0
+PyYAML>=6.0
+tqdm>=4.65.0
+
+# === Visualization & debugging (optional but useful) ===
+matplotlib>=3.7.0

@@ -13,6 +13,7 @@ follow_human/follow_human.py
 follow_human/human_position_publisher.py
 launch/follow_human.launch.py
 resource/follow_human
+rviz/follow_human.rviz
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

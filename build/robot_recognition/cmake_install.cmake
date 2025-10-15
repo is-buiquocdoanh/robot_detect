@@ -44,6 +44,7 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/robot_recognition/" TYPE DIRECTORY FILES
+    "/home/doanh/robot_detect/src/robot_recognition/models"
     "/home/doanh/robot_detect/src/robot_recognition/scripts"
     "/home/doanh/robot_detect/src/robot_recognition/launch"
     )
@@ -54,6 +55,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
     "/home/doanh/robot_detect/src/robot_recognition/scripts/yolov8_ros2_pt.py"
     "/home/doanh/robot_detect/src/robot_recognition/scripts/yolov8_ros2_subscriber.py"
     "/home/doanh/robot_detect/src/robot_recognition/launch/launch_yolov8.launch.py"
+    "/home/doanh/robot_detect/src/robot_recognition/models/yolov8n.pt"
     )
 endif()
 

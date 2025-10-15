@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "robot_recognition")
 set(robot_recognition_VERSION "0.0.0")
-set(robot_recognition_MAINTAINER "robotmania <robotmania@todo.todo>")
+set(robot_recognition_MAINTAINER "robotmania <doanh762003@gmail.com>")
 set(robot_recognition_BUILD_DEPENDS )
 set(robot_recognition_BUILDTOOL_DEPENDS "ament_cmake")
 set(robot_recognition_BUILD_EXPORT_DEPENDS )

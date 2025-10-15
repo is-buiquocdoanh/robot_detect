@@ -5,6 +5,8 @@ import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
+from ament_index_python.packages import get_package_share_directory
+import os
 
 from yolov8_msgs.msg import InferenceResult
 from yolov8_msgs.msg import Yolov8Inference
@@ -15,11 +17,14 @@ class Camera_subscriber(Node):
 
     def __init__(self):
         super().__init__('camera_subscriber')
-
-        self.model = YOLO('~/robot_detect/src/robot_recognition/scripts/yolov8n.pt')
+        
+        # Load YOLOv8 model
+        package_share = get_package_share_directory('robot_recognition')
+        model_path = os.path.join(package_share, 'models', 'yolov8n.pt')
+        self.model = YOLO(model_path)
+        self.get_logger().info(f"Model loaded from {model_path}")
 
         self.yolov8_inference = Yolov8Inference()
-
         self.subscription = self.create_subscription(
             Image,
             'camera/image_raw',
